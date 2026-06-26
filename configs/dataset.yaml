@@ -1,0 +1,47 @@
+# YOLO segmentation dataset config.
+# Change this path to your local dataset root before training.
+path: data/dataset_severity_split6
+
+train: images/train
+val: images/val
+
+nc: 37
+
+names:
+  0: Stain
+  1: Scratch
+  2: Fiber
+  3: Bubble
+  4: Particle
+  5: Dent
+  6: Overflow
+  7: Wrinkle
+  8: Damage
+  9: Cu_Exposure
+  10: Chipping
+  11: Floating
+  12: Bump
+  13: Stain_Particle_Fingerprint
+  14: Tilt
+  15: Non_ID_Chipping
+  16: Discoloration
+  17: Deform
+  18: defect
+  19: SiP1
+  20: SiP2
+  21: stain_residue
+  22: Scratch_Mark
+  23: Fingerprint
+  24: come_off
+  25: Uneven
+  26: open
+  27: missing
+  28: Residue
+  29: Dropoff
+  30: P
+  31: swell
+  32: shortage
+  33: Ni_Exposure
+  34: ASH
+  35: Pinhole
+  36: black_line

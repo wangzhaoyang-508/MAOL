@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use MAOL in your research, please cite this work."
+title: "MAOL: Morphology-Aware Ordinal Learning for Fine-Grained Industrial Defect Severity Grading"
+authors:
+  - name: "MAOL Authors"
+year: 2026
+license: MIT
